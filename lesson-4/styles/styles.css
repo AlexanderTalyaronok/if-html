@@ -1,0 +1,183 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.advantages-wrapper {
+  position: relative;
+  width: 1440px;
+  height: 569px;
+  background: #ffffff;
+}
+
+.advantages-header {
+  position: absolute;
+  top: 120px;
+  bottom: 402px;
+  left: 567px;
+  right: 567px;
+  width: 306px;
+  height: 47px;
+  font-family: "Roboto",sans-serif; 
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+}
+
+.advantages-header::after {
+  content: "";
+  position: relative;
+  display: block;
+  top: 20px;
+  left: 103px;
+  width: 100px;
+  height: 4px;
+  background: #f5bd41;
+}
+
+.support-item {
+  position: absolute;
+  top: 271px;
+  bottom: 122px;
+  left: 104px;
+  right: 1040px;
+  width: 296px;
+  height: 176px;
+}
+
+.support-icon {
+  position: relative;
+  top: 4.17px;
+  bottom: 80.17px;
+  left: 110.5px;
+  right: 110.5px;
+  min-width: 75px;
+  min-height: 91.67px;
+}
+
+.support-title {
+  position: absolute;
+  top: 148px;
+  bottom: 0px;
+  left: 77px;
+  right: 78px;;
+  width: 141px;
+  height: 28px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #383838;
+}
+
+.communicate-item {
+  position: absolute;
+  top: 271px;
+  bottom: 120px;
+  left: 416px;
+  right: 728px;
+  width: 296px;
+  height: 178px;
+}
+
+.communicate-icon {
+  position: relative;
+  top: 8.33px;
+  bottom: 86.33px;
+  left: 105.33px;
+  right: 107.33px;
+  min-width: 83.33px;
+  min-height: 83.33px;
+}
+
+.communicate-title {
+  position: absolute;
+  top: 148px;
+  bottom: 2px;
+  width: 296px;
+  height: 28px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #383838;
+}
+
+.booking-item {
+  position: absolute;
+  top: 271px;
+  bottom: 114px;
+  left: 728px;
+  right: 416px;
+  width: 296px;
+  height: 184px;
+}
+
+.booking-icon {
+  position: relative;
+  top: 16.67px;
+  bottom: 100.67px;
+  left: 98px;
+  right: 98px;
+  min-width: 100px;
+  min-height: 66.67px;
+}
+
+.booking-title {
+  position: absolute;
+  top: 148px;
+  bottom: 8px;
+  left: 64px;
+  width: 168px;
+  height: 28px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #383838;
+}
+
+.reviews-item {
+  position: absolute;
+  top: 271px;
+  bottom: 115px;
+  left: 1041px;
+  right: 103px;
+  width: 296px;
+  height: 183px;
+}
+
+.reviews-icon {
+  position: relative;
+  top: 4.17px;
+  bottom: 95.5px;
+  left: 102.17px;
+  right: 102.17px;
+  min-width: 91.67px;
+  min-height: 83.33px;
+}
+
+.reviews-title {
+  position: absolute;
+  top: 148px;
+  bottom: 7px;
+  left: 36px;
+  right: 35px;
+  width: 225px;
+  height: 28px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #383838;
+}
