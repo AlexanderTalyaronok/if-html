@@ -1,17 +1,18 @@
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 .advantages-wrapper {
   position: relative;
-  width: 1440px;
-  height: 569px;
+  max-width: 1440px;
+  max-height: 569px;
+  margin: 0 auto;
   background: #ffffff;
 }
 
-.advantages-header {
+h2 {
   position: absolute;
   top: 120px;
   bottom: 402px;
@@ -26,7 +27,7 @@
   line-height: 47px;
 }
 
-.advantages-header::after {
+h2::after {
   content: "";
   position: relative;
   display: block;
@@ -60,9 +61,9 @@
 .support-title {
   position: absolute;
   top: 148px;
-  bottom: 0px;
+  bottom: 0;
   left: 77px;
-  right: 78px;;
+  right: 78px;
   width: 141px;
   height: 28px;
   font-family: "Roboto", sans-serif;
