@@ -1,72 +1,60 @@
+@import url(./font.css);
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
 .advantages-wrapper {
-  position: relative;
-  max-width: 1440px;
-  max-height: 569px;
+  width: 1440px;
+  height: 569px;
   margin: 0 auto;
-  background: #ffffff;
+  padding: 120px 104px; 
 }
 
 h2 {
-  position: absolute;
-  top: 120px;
-  bottom: 402px;
-  left: 567px;
-  right: 567px;
   width: 306px;
   height: 47px;
-  font-family: "Roboto",sans-serif; 
+  margin: 0 auto 104px;
   font-style: normal;
   font-weight: 500;
   font-size: 40px;
-  line-height: 47px;
+  line-height: 47px; 
+  color: #383838;
 }
 
 h2::after {
   content: "";
-  position: relative;
   display: block;
-  top: 20px;
-  left: 103px;
   width: 100px;
   height: 4px;
-  background: #f5bd41;
+  margin: 20px auto;
+  background: #F5BD41;
 }
 
-.support-item {
-  position: absolute;
-  top: 271px;
-  bottom: 122px;
-  left: 104px;
-  right: 1040px;
-  width: 296px;
-  height: 176px;
+.advantages-items {
+  display: flex;
 }
 
-.support-icon {
-  position: relative;
-  top: 4.17px;
-  bottom: 80.17px;
-  left: 110.5px;
-  right: 110.5px;
-  min-width: 75px;
-  min-height: 91.67px;
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
 }
 
-.support-title {
-  position: absolute;
-  top: 148px;
-  bottom: 0;
-  left: 77px;
-  right: 78px;
-  width: 141px;
-  height: 28px;
-  font-family: "Roboto", sans-serif;
+.item-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+}
+
+.item-title {
+  margin-top: 48px; 
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -75,110 +63,4 @@ h2::after {
   color: #383838;
 }
 
-.communicate-item {
-  position: absolute;
-  top: 271px;
-  bottom: 120px;
-  left: 416px;
-  right: 728px;
-  width: 296px;
-  height: 178px;
-}
 
-.communicate-icon {
-  position: relative;
-  top: 8.33px;
-  bottom: 86.33px;
-  left: 105.33px;
-  right: 107.33px;
-  min-width: 83.33px;
-  min-height: 83.33px;
-}
-
-.communicate-title {
-  position: absolute;
-  top: 148px;
-  bottom: 2px;
-  width: 296px;
-  height: 28px;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 28px;
-  text-align: center;
-  color: #383838;
-}
-
-.booking-item {
-  position: absolute;
-  top: 271px;
-  bottom: 114px;
-  left: 728px;
-  right: 416px;
-  width: 296px;
-  height: 184px;
-}
-
-.booking-icon {
-  position: relative;
-  top: 16.67px;
-  bottom: 100.67px;
-  left: 98px;
-  right: 98px;
-  min-width: 100px;
-  min-height: 66.67px;
-}
-
-.booking-title {
-  position: absolute;
-  top: 148px;
-  bottom: 8px;
-  left: 64px;
-  width: 168px;
-  height: 28px;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 28px;
-  text-align: center;
-  color: #383838;
-}
-
-.reviews-item {
-  position: absolute;
-  top: 271px;
-  bottom: 115px;
-  left: 1041px;
-  right: 103px;
-  width: 296px;
-  height: 183px;
-}
-
-.reviews-icon {
-  position: relative;
-  top: 4.17px;
-  bottom: 95.5px;
-  left: 102.17px;
-  right: 102.17px;
-  min-width: 91.67px;
-  min-height: 83.33px;
-}
-
-.reviews-title {
-  position: absolute;
-  top: 148px;
-  bottom: 7px;
-  left: 36px;
-  right: 35px;
-  width: 225px;
-  height: 28px;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 28px;
-  text-align: center;
-  color: #383838;
-}
