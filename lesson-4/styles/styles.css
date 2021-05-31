@@ -9,12 +9,11 @@
 
 .advantages-wrapper {
   width: 1440px;
-  height: 569px;
   margin: 0 auto;
-  padding: 120px 104px; 
+  padding: 120px 105px; 
 }
 
-h2 {
+.advantages-wrapper h2 {
   width: 306px;
   height: 47px;
   margin: 0 auto 104px;
@@ -25,7 +24,7 @@ h2 {
   color: #383838;
 }
 
-h2::after {
+.advantages-wrapper h2::after {
   content: "";
   display: block;
   width: 100px;
