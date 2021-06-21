@@ -29,14 +29,10 @@ body {
   background-position: center center;
 }
 
-.container {
+.header__container {
   width: 1264px;
   margin: 0 auto;
-  padding: 120px 16px 120px 16px;
-}
-
-.container.header__container {
-  padding-top: 50px;
+  padding: 50px 16px 120px;
 }
 
 .nav {
@@ -179,13 +175,13 @@ h1 {
   margin-left: 16px;
 }
 
-.container {
+.offer__container {
   width: 1264px;
   margin: 0 auto;
   padding: 120px 16px; 
 }
 
-.container h2 {
+.offer__container h2 {
   width: 306px;
   height: 47px;
   margin: 0 auto 104px;
@@ -196,7 +192,7 @@ h1 {
   color: #383838;
 }
 
-.container h2::after {
+.offer_container h2::after {
   content: "";
   display: block;
   width: 100px;
@@ -228,6 +224,10 @@ h1 {
   height: 100px;
 }
 
+.item-icon img {
+  max-width: 100%;
+}
+
 .item-title {
   margin-top: 48px; 
   font-weight: 400;
@@ -241,8 +241,18 @@ footer {
   background-color: #10367C;
 }
 
+.footer__container {
+  width: 1264px;
+  margin: 0 auto;
+  padding: 120px 16px 120px;
+}
+
 .footer-wrapper {
   display: flex;
+}
+
+.footer-logo {
+  display: none;
 }
 
 .footer-links {
@@ -292,4 +302,86 @@ footer {
   font-size: 14px;
   line-height: 16px;
   color: #FFFFFF;
+}
+
+@media screen and (max-width: 576px) {
+  .offer__container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 24px 16px 40px;
+  }
+
+  .offer h2 {
+    margin-bottom: 0;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    color: #383838;
+  }
+
+  .offer h2::after {
+    content: none;
+  }
+
+  .advantages-items {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .item {
+    margin: 32px auto 0;
+    width: 100%;
+  }
+
+  .item-title {
+    margin-top: 16px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    text-align: center;
+    color: #383838;
+  }
+
+  .footer__container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    padding: 40px 16px;
+  }
+  
+  .footer-logo {
+    align-self: center;
+    margin-bottom: 40px;
+    display: block;
+    width: 98px;
+    height: 19px;
+  }
+
+  .footer-links a {
+    display: none;
+  }
+
+  .footer-links:not(:last-child) {
+    margin-right: 0px; 
+  }
+
+  .footer-links p {
+    align-self: center;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: underline;
+    color: #FFFFFF;
+  }
+
+  .footer-copy {
+    margin-top: 32px;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: #FFFFFF;
+  }
 }
